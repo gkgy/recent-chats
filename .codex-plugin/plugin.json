@@ -1,0 +1,26 @@
+{
+  "name": "recent-chats",
+  "version": "1.3.0",
+  "description": "在 Codex 中查找和打开最近聊天。",
+  "author": {
+    "name": "Local"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "最近对话",
+    "shortDescription": "侧边栏打开可搜索的最近对话",
+    "longDescription": "在 Codex 内搜索并打开最近 200 条本机对话。",
+    "developerName": "Local",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "defaultPrompt": [
+      "打开最近对话"
+    ],
+    "brandColor": "#3173D5"
+  },
+  "mcpServers": "./.mcp.json",
+  "requires_local_executor": true
+}
